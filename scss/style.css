@@ -1,0 +1,549 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Gothic&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  scroll-behavior: smooth;
+}
+
+header .header_section {
+  background-color: #EBF4F6;
+  font-family: "League Gothic", sans-serif;
+  height: 180px;
+}
+header .header_section .nan .container-fluid img {
+  width: 200px;
+}
+header .header_section .nan .container-fluid button {
+  width: 70px;
+  height: 50px;
+  box-shadow: 2px 2px 3px 2px black;
+}
+header .header_section .nan .container-fluid button:hover {
+  background-color: #758694;
+  cursor: pointer;
+}
+header .header_section .nan .container-fluid .n0 .n1 li a {
+  font-size: 25px;
+  padding: 0px 15px;
+  font-weight: 800;
+  color: #088395;
+  border-bottom: 1px solid transparent;
+  text-transform: uppercase;
+}
+header .header_section .nan .container-fluid .n0 .n1 li a:hover {
+  border-bottom: 2px solid #088395;
+  color: #37B7C3;
+  cursor: pointer;
+}
+
+@media (max-width: 991px) {
+  header .header_section .nan .container-fluid .n0 .n1 li a:hover {
+    border-bottom: 1px solid transparent;
+    cursor: pointer;
+  }
+}
+.hero_section {
+  background-image: url(/img/back.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 30px;
+  box-sizing: border-box;
+  display: flex;
+  font-family: "League Gothic", sans-serif;
+  height: auto;
+}
+.hero_section .container .row .hii h1 {
+  font-size: 70px;
+  text-transform: capitalize;
+  color: #FFF455;
+  font-weight: 800;
+  text-align: center;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+}
+.hero_section .container .row .hii h1 span {
+  font-size: 110px;
+  color: darkgoldenrod;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+}
+.hero_section .container .row .hii p {
+  font-size: 50px;
+  text-align: center;
+  text-transform: capitalize;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+  color: #FFF455;
+  font-weight: 400;
+}
+.hero_section .row .holder1 button {
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+  cursor: pointer;
+  background-color: #758694;
+}
+.hero_section .row .holder1 button:hover {
+  background-color: transparent;
+  border: 2px solid silver;
+  color: #FFF455;
+  box-shadow: 2px 3px 3px 2px #FFF455;
+}
+.hero_section .row .holder1 button a {
+  font-size: 31px;
+  text-decoration: none;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+  text-transform: uppercase;
+  color: #FFF455;
+  font-weight: 900;
+}
+.hero_section .row .holder1 button a:hover {
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+}
+
+.about_section {
+  font-family: "League Gothic", sans-serif;
+  padding-bottom: 30px;
+  box-sizing: border-box;
+  background-color: #ADD8E6;
+}
+.about_section .container .row {
+  row-gap: 60px;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  padding-top: 50px;
+  box-sizing: border-box;
+  height: auto;
+}
+.about_section .container .row .about_holder {
+  box-shadow: 2px 3px 6px 2px #071952;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  height: auto;
+}
+.about_section .container .row .about_holder:hover {
+  background-color: #758694;
+  color: white;
+}
+.about_section .container .row .about_holder h1 {
+  font-size: 70px;
+  text-align: center;
+  font-weight: 800;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+  text-transform: uppercase;
+  animation-name: kinley;
+  transition: all 0.5s ease-in-out;
+  animation-duration: 1s;
+  animation-iteration-count: 2;
+}
+@keyframes kinley {
+  30% {
+    color: #37B7C3;
+  }
+  70% {
+    color: #FFF455;
+  }
+}
+.about_section .container .row .about_holder p {
+  font-size: 20px;
+  font-weight: 400;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+  text-transform: capitalize;
+}
+.about_section .container .row .about_holder h3 {
+  text-align: center;
+  text-transform: uppercase;
+}
+.about_section .container .row .about_holder .socal_holder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.about_section .container .row .about_holder .socal_holder a {
+  text-decoration: none;
+  font-size: 35px;
+  animation-name: rotate;
+  animation-duration: 1s;
+  transition: all 0.5s ease-in-out;
+}
+.about_section .container .row .about_holder .socal_holder a:hover {
+  color: #071952;
+  transform: rotatey(205deg);
+}
+
+.img_div {
+  height: 400px;
+  padding-top: 30px;
+  width: 400px;
+  background: linear-gradient(rgba(7, 19, 189, 0.333) 30%, rgb(129, 22, 216) 50%, #0b3cc4 80%);
+  border-radius: 40% 60% 30% 99%;
+  box-shadow: 4px 3px 5px 5px white;
+}
+.img_div img {
+  width: 300px;
+}
+
+.resume_section {
+  font-family: "League Gothic", sans-serif;
+  padding-top: 20px;
+  box-sizing: border-box;
+  background-color: #071952;
+  height: auto;
+  padding: 45px;
+}
+.resume_section .container .row .resume_holder h1 {
+  color: #EBF4F6;
+  text-align: center;
+  text-transform: uppercase;
+}
+.resume_section .container .row .resume_holder h3 {
+  color: #EBF4F6;
+  text-align: center;
+  text-transform: capitalize;
+}
+.resume_section .container .row .resume_holder p {
+  color: #EBF4F6;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.skill_section {
+  font-family: "League Gothic", sans-serif;
+  box-sizing: border-box;
+  padding: 45px;
+  background-color: #ADD8E6;
+}
+.skill_section .container .row {
+  padding-bottom: 50px;
+}
+.skill_section .container .row h1 {
+  text-align: center;
+  padding-right: 180px;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 40px;
+}
+.skill_section .container .row .html_card {
+  border-radius: 30px;
+  box-shadow: 3px 3px 2px 2px black;
+}
+.skill_section .container .row .html_card img {
+  height: 180px;
+  border-radius: 30px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+@keyframes html-progress {
+  to {
+    --progress-value: 85;
+  }
+}
+@keyframes css-progress {
+  to {
+    --progress-value: 80;
+  }
+}
+@keyframes js-progress {
+  to {
+    --progress-value: 60;
+  }
+}
+@keyframes bt-progress {
+  to {
+    --progress-value: 70;
+  }
+}
+@keyframes re-progress {
+  to {
+    --progress-value: 50;
+  }
+}
+@keyframes wp-progress {
+  to {
+    --progress-value: 80;
+  }
+}
+.skill_section .container .row .html_card .progress-bar-container {
+  padding-left: 90px;
+  box-sizing: border-box;
+  background-color: #EBF4F6;
+  border-radius: 30px;
+  box-shadow: 3px 3px 2px 2px black;
+}
+.skill_section .container .row .html_card .progress-bar-container h2 {
+  padding-right: 100px;
+}
+.skill_section .container .row .html_card .progress-bar-container .progress-bar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.skill_section .container .row .html_card .progress-bar-container .progress-bar::before {
+  counter-reset: percentage var(--progress-value);
+  content: counter(percentage) "%";
+}
+.skill_section .container .row .html_card .progress-bar-container .html {
+  background: radial-gradient(closest-side, #758694 79%, transparent 80% 100%), conic-gradient(green calc(var(--progress-value) * 1%), silver 0);
+  animation: html-progress 2s 1 forwards;
+}
+.skill_section .container .row .html_card .progress-bar-container .html::before {
+  animation: html-progress 2s 1 forwards;
+}
+.skill_section .container .row .html_card .progress-bar-container .css {
+  background: radial-gradient(closest-side, #758694 79%, transparent 80% 100%, white 0), conic-gradient(blue calc(var(--progress-value) * 1%), silver 0);
+  animation: css-progress 2s 1 forwards;
+}
+.skill_section .container .row .html_card .progress-bar-container .css::before {
+  animation: css-progress 2s 1 forwards;
+}
+.skill_section .container .row .html_card .progress-bar-container .js {
+  background: radial-gradient(closest-side, #758694 79%, transparent 80% 100%, white 0), conic-gradient(orange calc(var(--progress-value) * 1%), silver 0);
+  animation: js-progress 2s 1 forwards;
+}
+.skill_section .container .row .html_card .progress-bar-container .js::before {
+  animation: js-progress 2s 1 forwards;
+}
+.skill_section .container .row .html_card .progress-bar-container .bt {
+  background: radial-gradient(closest-side, #758694 79%, transparent 80% 100%, white 0), conic-gradient(purple calc(var(--progress-value) * 1%), silver 0);
+  animation: bt-progress 2s 1 forwards;
+}
+.skill_section .container .row .html_card .progress-bar-container .bt::before {
+  animation: bt-progress 2s 1 forwards;
+}
+.skill_section .container .row .html_card .progress-bar-container .re {
+  background: radial-gradient(closest-side, #758694 79%, transparent 80% 100%, white 0), conic-gradient(skyblue calc(var(--progress-value) * 1%), silver 0);
+  animation: re-progress 2s 1 forwards;
+}
+.skill_section .container .row .html_card .progress-bar-container .re::before {
+  animation: re-progress 2s 1 forwards;
+}
+.skill_section .container .row .html_card .progress-bar-container .wp {
+  background: radial-gradient(closest-side, #758694 79%, transparent 80% 100%, white 0), conic-gradient(yellow calc(var(--progress-value) * 1%), silver 0);
+  animation: wp-progress 2s 1 forwards;
+}
+.skill_section .container .row .html_card .progress-bar-container .wp::before {
+  animation: wp-progress 2s 1 forwards;
+}
+.skill_section .container .row .html_card .progress-bar-container h2 {
+  text-align: center;
+}
+.skill_section .container .row .html_card .progress-bar-container progress {
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.project_section {
+  background-color: #071952;
+  font-family: "League Gothic", sans-serif;
+  padding: 40px;
+}
+.project_section .container .row h1 {
+  color: #EBF4F6;
+  text-align: center;
+}
+.project_section .container .row h1:hover {
+  background-color: #EBF4F6;
+  color: #071952;
+  border-radius: 30px;
+  margin-top: 10px;
+}
+.project_section .main {
+  border-radius: 30px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+.project_section .main .carsol1 .content_store h5 {
+  color: #FFF455;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.project_section .main .carsol1 .content_store p {
+  color: #FFF455;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.contact_section {
+  font-family: "League Gothic", sans-serif;
+  background-color: #ADD8E6;
+  height: 1000px;
+  padding: 45px;
+}
+.contact_section .container .row h1 {
+  text-transform: uppercase;
+  text-align: center;
+}
+.contact_section .container .row .map h4 {
+  text-transform: capitalize;
+  text-align: center;
+}
+.contact_section .container .row .map iframe {
+  margin-bottom: 30px;
+  box-shadow: 3px 3px 2px 2px #758694;
+  border-radius: 30px;
+}
+.contact_section .container .row .socails {
+  box-shadow: 3px 3px 2px 2px #758694;
+  border-radius: 30px;
+  width: 600px;
+  background-color: #EBF4F6;
+  box-sizing: border-box;
+  padding: 10px;
+  opacity: 0.7;
+}
+.contact_section .container .row .socails a {
+  text-decoration: none;
+  color: black;
+}
+.contact_section .container .row .socails a h3 {
+  padding-left: 10px;
+  text-align: center;
+}
+.contact_section .container .row .socails a h3:hover {
+  color: #37B7C3;
+}
+.contact_section .container .row .holder {
+  margin-top: 60px;
+}
+.contact_section .container .row .holder h4 {
+  text-align: center;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+.contact_section .container .row .holder .container form {
+  background-color: #FAF9F6;
+  box-shadow: 3px 3px 2px 2px #758694;
+  border-radius: 30px;
+  padding: 50px;
+  box-sizing: border-box;
+}
+.contact_section .container .row .holder .container form textarea {
+  margin-top: 20px;
+}
+.contact_section .container .row .holder .container form .buton {
+  width: 515px;
+  height: 40px;
+  background-color: darkseagreen;
+  border-radius: 10px;
+  font-size: 25px;
+}
+.contact_section .container .row .holder .container form .buton:hover {
+  border: 2px solid silver;
+  opacity: 0.9;
+  color: white;
+}
+
+footer .footer_section {
+  background-color: #EBF4F6;
+  font-family: "League Gothic", sans-serif;
+  height: 80px;
+}
+footer .footer_section .container .row .fon h5 {
+  padding-top: 30px;
+  text-align: center;
+}
+
+@media (max-width: 1281px) {
+  .about_section .container .row .img_div img {
+    width: 300px;
+  }
+  .contact_section .container .row .map iframe {
+    width: 520px;
+  }
+  .contact_section .container .row .socails {
+    width: 520px;
+    margin-top: 10px;
+  }
+  .contact_section .container .row .holder .container .hello {
+    margin-top: 40px;
+  }
+  .contact_section .container .row .holder .container .hello textarea {
+    width: 420px;
+    height: 100px;
+  }
+  .contact_section .container .row .holder .container .input_div button {
+    width: 420px;
+  }
+}
+@media (max-width: 1025px) {
+  .contact_section .container .row .map iframe {
+    width: 450px;
+  }
+  .contact_section .container .row .socails {
+    width: 450px;
+  }
+  .contact_section .container .row .holder .container .hello textarea {
+    width: 330px;
+  }
+  .contact_section .container .row .holder .container .input_div button {
+    width: 330px;
+  }
+}
+@media (max-width: 913px) {
+  .about_section .container .row .img_div {
+    margin-left: 70px;
+  }
+  .skill_section .container .row {
+    margin-left: 190px;
+    gap: 30px;
+  }
+  .skill_section .container .row h1 {
+    width: 100%;
+    margin-right: 50px;
+  }
+  .contact_section {
+    height: 1700px;
+  }
+  .contact_section .container .row .map iframe {
+    margin-left: 100px;
+  }
+  .contact_section .container .row .socails {
+    margin-left: 100px;
+  }
+  .contact_section .container .row .holder .container .hello textarea {
+    width: 570px;
+  }
+  .contact_section .container .row .holder .container .input_div button {
+    width: 570px;
+  }
+}
+@media (max-width: 541px) and (max-width: 771px) {
+  .about_section .container .row .img_div {
+    width: 340px;
+    position: relative;
+    right: 78px;
+  }
+  .about_section .container .row .img_div img {
+    width: 300px;
+  }
+  .skill_section .container .row {
+    position: relative;
+    right: 180px;
+    gap: 30px;
+  }
+  .skill_section .container .row h1 {
+    position: relative;
+    left: 100px;
+  }
+  .contact_section .container .row .map iframe {
+    width: 290px;
+    position: relative;
+    right: 85px;
+  }
+  .contact_section .container .row .socails {
+    width: 290px;
+    position: relative;
+    right: 85px;
+  }
+  .contact_section .container .row .holder .container .hello {
+    position: relative;
+    bottom: 40px;
+    height: 540px;
+  }
+  .contact_section .container .row .holder .container .hello textarea {
+    width: 175px;
+  }
+  .contact_section .container .row .holder .container .input_div button {
+    width: 178px;
+  }
+}/*# sourceMappingURL=style.css.map */
