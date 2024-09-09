@@ -817,3 +817,38 @@ footer .footer_section{
 
 
 // end of phone media quarey
+
+
+
+// start of carsouel 2
+
+
+section .main_holder{
+  gap: 20px;
+  font-family: "League Gothic", sans-serif;
+  height: auto;
+  padding-bottom: 30px;
+
+  .card1{
+
+    box-shadow: 1px 2px 3px 2px solid rgb(148, 148, 52);
+  
+  }
+
+
+ .card1_holder{
+
+
+  img{
+    width: 330px;
+
+    &:hover{
+      transform: scale(0.9);
+      transition: all ease-in-out 5s ;
+    }
+  }
+ }
+
+
+ 
+}

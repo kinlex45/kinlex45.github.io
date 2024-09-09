@@ -546,4 +546,20 @@ footer .footer_section .container .row .fon h5 {
   .contact_section .container .row .holder .container .input_div button {
     width: 178px;
   }
+}
+section .main_holder {
+  gap: 20px;
+  font-family: "League Gothic", sans-serif;
+  height: auto;
+  padding-bottom: 30px;
+}
+section .main_holder .card1 {
+  box-shadow: 1px 2px 3px 2px solid rgb(148, 148, 52);
+}
+section .main_holder .card1_holder img {
+  width: 330px;
+}
+section .main_holder .card1_holder img:hover {
+  transform: scale(0.9);
+  transition: all ease-in-out 5s;
 }/*# sourceMappingURL=style.css.map */
