@@ -503,6 +503,9 @@ background-color: vars.$navy;
   background-color: vars.$softblue;
   height: 1000px;
   padding: 45px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
   .container .row{
     
     
@@ -652,17 +655,7 @@ footer .footer_section{
 }
 
 @media (max-width:1025px){
-  // .about_section .container .row{
-  //   .img_div{
-  //   padding-top: 30px;
-      
-  //     img{
-  //       width: 380px;
-        
-        
-  //     }
-  //   }
-  // }
+
 
   .contact_section .container .row{
     .map iframe{
@@ -717,34 +710,15 @@ footer .footer_section{
       .container .row{
       .map iframe{
         
-        margin-left: 100px;
+        margin-left: 50px;
       }
       .socails{
         
         
-        margin-left: 100px;
+        margin-left: 50px;
       }
   
-      .holder .container{
-        
-        .hello{ 
-         
-        
-          
-          textarea{
-          width:570px;
-         
-        }
-      } 
-        .input_div{
-          
-          button{
-            width: 570px;
-            
-          }
-        }
-  
-      }
+   
     }
   } 
 }

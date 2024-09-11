@@ -368,6 +368,9 @@ header .header_section .nan .container-fluid .n0 .n1 li a:hover {
   background-color: #ADD8E6;
   height: 1000px;
   padding: 45px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 .contact_section .container .row h1 {
   text-transform: uppercase;
@@ -495,16 +498,10 @@ footer .footer_section .container .row .fon h5 {
     height: 1700px;
   }
   .contact_section .container .row .map iframe {
-    margin-left: 100px;
+    margin-left: 50px;
   }
   .contact_section .container .row .socails {
-    margin-left: 100px;
-  }
-  .contact_section .container .row .holder .container .hello textarea {
-    width: 570px;
-  }
-  .contact_section .container .row .holder .container .input_div button {
-    width: 570px;
+    margin-left: 50px;
   }
 }
 @media (max-width: 541px) and (max-width: 771px) {
