@@ -496,6 +496,7 @@ footer .footer_section .container .row .fon h5 {
   }
   .contact_section {
     height: 1700px;
+    padding: 60px;
   }
   .contact_section .container .row .map iframe {
     margin-left: 50px;
