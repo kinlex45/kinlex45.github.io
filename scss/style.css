@@ -525,24 +525,9 @@ footer .footer_section .container .row .fon h5 {
   }
   .contact_section .container .row .map iframe {
     width: 290px;
-    position: relative;
-    right: 85px;
   }
   .contact_section .container .row .socails {
     width: 290px;
-    position: relative;
-    right: 85px;
-  }
-  .contact_section .container .row .holder .container .hello {
-    position: relative;
-    bottom: 40px;
-    height: 540px;
-  }
-  .contact_section .container .row .holder .container .hello textarea {
-    width: 175px;
-  }
-  .contact_section .container .row .holder .container .input_div button {
-    width: 178px;
   }
 }
 section .main_holder {
